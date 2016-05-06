@@ -3,7 +3,8 @@
         <%= link_to 'Alpha-Blog', {controller: "pages", action: "home"}, class: "navbar-brand"%>
         <ul class="nav navbar-nav navbar-right">
             <li><%= link_to 'Home', {controller: "pages", action: "home"} %></li>   
-            <li><%= link_to 'About', {controller: "pages", action: "about"}%></li>     
+            <li><%= link_to 'About', {controller: "pages", action: "about"}%></li>  
+            <li><%=  link_to 'Blog', {controller: "articles", action:"index"}%></li>   
         </ul>
     </div>
 </nav>
